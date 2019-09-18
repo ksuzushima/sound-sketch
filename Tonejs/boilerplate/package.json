@@ -1,0 +1,21 @@
+{
+  "name": "tonejs-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for Tone js",
+  "main": "index.js",
+  "author": "ksuzushima",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "watch": "NODE_ENV=development webpack --config webpack.config.js --watch"
+  },
+  "dependencies": {
+    "tone": "^13.8.25"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
